@@ -540,6 +540,7 @@ footer div.navigasi {
 
 footer div.navigasi a {
    padding: 8px;
+   
 }
 
 /* UNTUK kode RESPONSIF hari ke 3 tulis DI BAWAH sini */
@@ -575,9 +576,7 @@ footer div.navigasi a {
 
 }
 
-/* Kode CSS Selesai di sini */
-
-/*code tambahan8 */
+/* Kode Tambahan */
 .bg-coklat {
     background-color: #5c3902;
 }
@@ -602,6 +601,27 @@ a.chat {
 .bg-trans{
    color: rgba(0, 0, 0, 0);
 }
-.pos-fix{
- position: fixed;  
+
+.img-grey{
+   filter: grayscale(50%) invert(1);
+}
+.el-transition{
+   transition: 0.5s;
+}
+
+/*Animasi*/
+.aktivl{
+   transform: translateX(-60%);
+   opacity: 0;
+}
+
+.transide {
+   transform: translateX(0);
+   transition: 1.5s;
+   opacity: 1;
+}
+
+.aktivr{
+   transform: translateX(60%);
+   opacity: 0;
 }
